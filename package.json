@@ -1,0 +1,21 @@
+{
+  "name": "toolshop-playwright-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end UI tests for the Practice Software Testing Toolshop demo store, built with Playwright + TypeScript using the Page Object Model.",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["playwright", "typescript", "e2e", "qa", "page-object-model"],
+  "author": "Priyan M",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
